@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+echo ""
+echo "Updating Ruby Gems"
+gem update --system
+
+# Install Gems Tools
+# ----------------------------------------------------------------------
+
+function installgem () {
+  if ! gem spec "${@}" > /dev/null 2>&1; then
+    echo "Installing ${@}..."
+    gem install "${@}"
+  else
+    echo "${@} is already installed"
+  fi
+}
+
+#installgem bootstrap-sass
+installgem bundler
+#installgem compass
+#installgem foundation
+#installgem jekyll
+installgem rails
+
+echo ""
+echo "Cleaning up..."
+gem cleanup

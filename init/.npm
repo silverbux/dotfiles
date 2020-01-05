@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# List Packages that will be installed
+node_modules=(
+  bower
+  gulp
+  jscs
+  jshint
+  npm
+  superstatic
+)
+
+# Install Node Packages
+npm install -g  ${node_modules[@]}

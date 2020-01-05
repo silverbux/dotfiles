@@ -1,0 +1,34 @@
+[
+  { "keys": ["ctrl+tab"], "command": "next_view" },
+  { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+  {
+    "keys":    ["alt+s"],
+    "command": "toggle_side_bar"
+  },
+  {
+    "keys":    ["alt+r"],
+    "command": "reindent"
+  },
+  {
+    "keys": ["command+y"],
+    "command": "show_overlay",
+    "args": {
+      "overlay": "command_palette",
+      "text":    "Snippet: "
+    }
+  },
+  {
+    "keys": ["super+d"],
+    "command": "goto_definition"
+  },
+  {
+    "keys": ["ctrl+shift+z"], "command": "jump_back"
+  },
+  {
+    "keys": ["ctrl+shift+x"], "command": "jump_forward"
+  },
+  {
+    "keys": ["super+shift+k"],
+    "command": "format_javascript"
+  }
+]

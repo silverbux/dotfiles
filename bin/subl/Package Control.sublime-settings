@@ -1,0 +1,19 @@
+{
+  "in_process_packages": [],
+  "installed_packages": [
+    "Alignment",
+    "GitGutter",
+    "Handlebars",
+    "HTML5",
+    "JSCS-Formatter",
+    "LESS",
+    "Package Control",
+    "Pretty JSON",
+    "Sass",
+    "SCSS",
+    "SideBarEnhancements",
+    "JSCS-Formatter",
+    "HTML-CSS-JS Prettify",
+    "Sublimerge"
+  ]
+}

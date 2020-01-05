@@ -1,0 +1,24 @@
+{
+  // Simply using `node` without specifying a path sometimes doesn't work :(
+  // https://github.com/victorporof/Sublime-HTMLPrettify#oh-noez-command-not-found
+  // http://nodejs.org/#download
+  "node_path": {
+    "windows": "node.exe",
+    "linux": "/usr/bin/nodejs",
+    "osx": "/opt/boxen/nodenv/shims/node"
+  },
+
+  "jscs_path": {
+    "windows": "%APPDATA%/npm/node_modules/jscs/bin/jscs",
+    "linux": "/usr/bin/jscs",
+    "osx": "/opt/boxen/nodenv/versions/0.12.7/bin/jscs"
+  },
+
+  // Specify this path to a JSCS config file to override the default behavior.
+  // Passed to JSCS as --config. Read more here:
+  // http://jscs.info/overview.html#-config-
+  "config_path": "/Users/alexquiambao/projects/.jscsrc",
+
+  // Automatically format when a file is saved.
+  "format_on_save": false
+}

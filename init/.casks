@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+function cask() {
+  if brew cask info "${@}" | grep "Not installed" > /dev/null; then
+    brew cask install "${@}"
+  else
+    echo "${@} is already installed."
+  fi
+}
+
+echo ""
+echo "Installing python3"
+cask python3
+
+echo ""
+echo "Cleaning up installation files..."
+brew cask cleanup

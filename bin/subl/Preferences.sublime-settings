@@ -1,0 +1,89 @@
+{
+    "auto_close_tags": true,
+    "auto_complete": true,
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_delay": 50,
+    "auto_complete_selector": "source - comment",
+    "auto_complete_size_limit": 4194304,
+    "auto_complete_triggers":
+    [
+        {
+            "characters": "<",
+            "selector": "text.html"
+        }
+    ],
+    "auto_complete_with_fields": false,
+    "auto_indent": true,
+    "auto_match_enabled": true,
+    "bold_folder_labels": true,
+    "caret_style": "phase",
+    "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+    "default_encoding": "UTF-8",
+    "default_line_ending": "LF",
+    "detect_indentation": true,
+    "draw_indent_guides": true,
+    "draw_minimap_border": false,
+    "draw_white_space": "selection",
+    "ensure_newline_at_eof_on_save": false,
+    "extensions":
+    [
+        "sass",
+        "scss",
+        "less",
+        "js",
+        "json"
+    ],
+    "fade_fold_buttons": true,
+    "fallback_encoding": "UTF-8",
+    "find_selected_text": true,
+    "fold_buttons": true,
+    "folder_exclude_patterns":
+    [
+        ".sass-cache",
+        ".git",
+        "node_modules",
+        "bower_components"
+    ],
+    "font_face": "Source Code Pro Medium",
+    "font_size": 13,
+    "gutter": true,
+    "highlight_line": true,
+    "hot_exit": false,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "indent_guide_options":
+    [
+        "draw_normal"
+    ],
+    "indent_subsequent_lines": true,
+    "line_numbers": true,
+    "line_padding_bottom": 0,
+    "line_padding_top": 0,
+    "margin": -10,
+    "match_brackets": true,
+    "match_brackets_braces": true,
+    "match_brackets_content": true,
+    "match_brackets_square": true,
+    "match_tags": true,
+    "open_files_in_new_window": false,
+    "remember_open_files": true,
+    "rulers":
+    [
+        0,
+        79
+    ],
+    "scroll_past_end": true,
+    "shift_tab_unindent": false,
+    "show_full_path": true,
+    "spell_check": false,
+    "tab_completion": true,
+    "tab_size": 4,
+    "theme": "Spacegray.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_automatic_white_space": false,
+    "trim_trailing_white_space_on_save": true,
+    "use_tab_stops": true,
+    "word_wrap": false
+}

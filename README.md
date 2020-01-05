@@ -57,6 +57,10 @@ unzip master.zip && mv dotfiles-master ~/.dotfiles
 sh ~/.dotfiles/bootstrap.sh
 ```
 
+# install NVM
+```
+https://github.com/nvm-sh/nvm
+```
 
 ### Initialize Dotfiles
 

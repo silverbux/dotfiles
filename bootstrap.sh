@@ -64,10 +64,6 @@ install_formula () {
   brew install python
 
   echo ""
-  echo "  ➜ node"
-  brew install node
-
-  echo ""
   echo "  ➜ zsh"
   brew install zsh
 

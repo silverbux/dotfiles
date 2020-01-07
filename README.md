@@ -34,6 +34,21 @@
  25. Mounty [https://mounty.app/](https://mounty.app/)
 
 
+### VSCODE EXTENSIONS
+
+akamud.vscode-theme-onedark
+codingyu.laravel-goto-view
+dbaeumer.vscode-eslint
+Equinusocio.vsc-material-theme
+felixfbecker.php-debug
+felixfbecker.php-intellisense
+felixfbecker.php-pack
+HookyQR.beautify
+junstyle.php-cs-fixer
+onecentlin.laravel-blade
+PKief.material-icon-theme
+stef-k.laravel-goto-controller
+zhuangtongfa.material-theme
 
 Dotfiles (Pongstr)
 ========

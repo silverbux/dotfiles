@@ -49,6 +49,7 @@ onecentlin.laravel-blade
 PKief.material-icon-theme
 stef-k.laravel-goto-controller
 zhuangtongfa.material-theme
+https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
 
 Dotfiles (Pongstr)
 ========
